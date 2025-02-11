@@ -1,0 +1,31 @@
+.header {
+  left: 240px;
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.icon {
+  margin: 1rem 1rem 0;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.dark-mode {
+  --color-one: rgb(208, 192, 248);
+  --color-two: rgb(167, 131, 247);
+  --color-thre: hsl(300, 48%, 45%);
+  --color-four: #932f6d;
+  --color-five: #420039;
+}
+
+.icon-tabler-sun:hover,
+.icon-tabler-moon:hover {
+  transform: scale(1.2); /* Aumenta el tamaño en un 20% */
+  color: yellow;
+}
+
+@media screen and (min-width: 1024px) {
+}

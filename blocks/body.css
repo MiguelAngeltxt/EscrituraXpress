@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: var(--background-color);
+  background: var(--color-one);
   color: #fff;
   transition: all 0.5s ease-in-out;
   width: 100vw;
@@ -18,7 +18,7 @@ body {
 :root {
   --primary-font: "Roboto Mono", sans-serif;
   --secondary-font: "Shadows Into Light", sans-serif;
-  --background-color: linear-gradient(#57004b, #280023);
+  --background-color: #57004b linear-gradient(#57004b, #280023);
   --color-one: #420039;
   --color-two: #932f6d;
   --color-thre: #e07be0;

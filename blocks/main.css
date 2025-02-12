@@ -8,10 +8,23 @@
   border-radius: 3rem;
   gap: 2.5rem;
   transition: all 0.5s ease-in-out;
+  animation: power 2.5s ease-in-out infinite;
 }
 
 .main:hover {
   border: 2px solid var(--color-thre);
+}
+
+@keyframes power {
+  0% {
+    box-shadow: 0;
+  }
+  50% {
+    box-shadow: 0 0 0.5rem 1px var(--color-thre);
+  }
+  100% {
+    box-shadow: 0;
+  }
 }
 
 .caption__text {
@@ -61,7 +74,6 @@
 
   .main:hover {
     border: 3px solid var(--color-thre);
-    box-shadow: 0 0 0.5rem 1px var(--color-thre);
   }
 
   .caption__text {

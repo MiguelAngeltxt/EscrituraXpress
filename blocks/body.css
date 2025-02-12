@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--color-one);
+  background: var(--background-color);
   color: #fff;
   transition: all 0.5s ease-in-out;
   width: 100vw;
@@ -18,10 +18,20 @@ body {
 :root {
   --primary-font: "Roboto Mono", sans-serif;
   --secondary-font: "Shadows Into Light", sans-serif;
+  --background-color: linear-gradient(#57004b, #280023);
   --color-one: #420039;
   --color-two: #932f6d;
   --color-thre: #e07be0;
   --color-four: #dcccff;
   --color-five: #f6f2ff;
   font-size: 16px;
+}
+
+.dark-mode {
+  --color-one: rgb(208, 192, 248);
+  --color-two: rgb(167, 131, 247);
+  --color-thre: rgb(101, 52, 206);
+  --color-four: #932f6d;
+  --color-five: #420039;
+  --background-color: linear-gradient(rgb(208, 192, 248), rgb(177, 145, 245));
 }

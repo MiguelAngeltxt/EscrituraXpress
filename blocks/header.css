@@ -13,14 +13,6 @@
   transition: all 0.2s ease-in-out;
 }
 
-.dark-mode {
-  --color-one: rgb(208, 192, 248);
-  --color-two: rgb(167, 131, 247);
-  --color-thre: hsl(300, 48%, 45%);
-  --color-four: #932f6d;
-  --color-five: #420039;
-}
-
 .icon-tabler-sun:hover,
 .icon-tabler-moon:hover {
   transform: scale(1.2); /* Aumenta el tamaño en un 20% */
